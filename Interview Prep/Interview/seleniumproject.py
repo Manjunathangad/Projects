@@ -5,9 +5,8 @@ import time
 
 driver = webdriver.Chrome()
 
-driver.get("https://www.google.com")
+driver.get("https://www.opencart.com/")
 driver.maximize_window()
 time.sleep(2)
 print(driver.title)
 driver.quit()
-
