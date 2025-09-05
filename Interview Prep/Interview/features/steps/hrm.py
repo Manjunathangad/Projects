@@ -2,7 +2,7 @@ from Interview.common_imports import *
 
 
 
-test_data_path = os.path.realpath(os.path.abspath(os.getcwd()))+ "\Test_data\login.json"
+test_data_path = os.path.realpath(os.path.abspath(os.getcwd()))+ "\INTERVIEW PREP\Interview\login.json"
 
 
 @given('launch chrome browser')

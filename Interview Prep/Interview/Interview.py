@@ -295,6 +295,31 @@ def v(c):
 v('Interviews')
 
 
+def print_name(name,id):
+  print(name,id)
+print_name("hi", 23)
+
+
+def add(i , j): 
+ return i+j
+print(add(10, 20))
+
+ 
+
+num = [1,2,3,4,5]
+def square(num):
+  return num **2
+a = map(square,num)
+print(list(a))
+
+
+
+
+
+
+
+
+
 
 
 
